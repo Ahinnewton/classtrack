@@ -1,5 +1,7 @@
 # ClassTrack
 
-Public Grade 8 participation tracking demo. All 14 students are fictional samples. Classroom records stay in each browser using localStorage; they are not shared between visitors.
+Classroom participation tracking with a searchable student directory and grade filters. The public default uses 14 fictional students. Import a CSV from Student directory to add a real roster stored only in your browser. Teachers are excluded; matching student IDs update without duplicating records. Imports create grade classrooms and preserve session history.
 
-Open the GitHub Pages site to create classrooms, record and undo deductions, review sessions, and export CSV reports.
+CSV columns: Role, Grade, English Name, Korean Name, Email Handle. Optional Email is not retained.
+
+Run checks with `node test.cjs`.
