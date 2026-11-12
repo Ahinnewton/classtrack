@@ -1,7 +1,5 @@
-# ClassTrack
+# ClassTrack entry point
 
-Classroom participation tracking with a searchable student directory and grade filters. The public default uses 14 fictional students. Import a CSV from Student directory to add a real roster stored only in your browser. Teachers are excluded; matching student IDs update without duplicating records. Imports create grade classrooms and preserve session history.
+Redirects to the account-enabled private ClassTrack deployment. The authenticated app runs on Sites with server-side account storage; GitHub Pages cannot provide a backend.
 
-CSV columns: Role, Grade, English Name, Korean Name, Email Handle. Optional Email is not retained.
-
-Run checks with `node test.cjs`.
+The previous fictional-sample demo remains at demo.html. Its local browser records are preserved. No real student roster, passwords, account database, or private workspace data is included in this public repository.
